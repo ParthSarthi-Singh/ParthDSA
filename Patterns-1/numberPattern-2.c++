@@ -6,7 +6,7 @@ int main(){
     int n;
     cin>>n;
     int r=1;
-    while (r<n){
+    while (r<=n){
         int c=0;
         while (c<3){
             cout<<r;

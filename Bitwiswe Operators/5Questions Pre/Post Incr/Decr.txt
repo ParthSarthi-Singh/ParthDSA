@@ -1,0 +1,11 @@
+1. b=1
+
+2. Stage1- Inside if 
+    a=0, b=3
+
+3. Stage1- Inside If
+    a=0, b=2
+
+4. 100
+
+5. b=1,c= 3

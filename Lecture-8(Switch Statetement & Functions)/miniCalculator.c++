@@ -26,5 +26,5 @@ int main(){
         break;
         default: cout << "Enter Valid Operation";
     }
-
+    return 0;
 }

@@ -19,7 +19,7 @@ int nCr(int n, int r){
 
     int fact_n_r=factorial(n-r);
 
-    int result = ((fact_n)/((fact_r)*(fact_n_r)));
+    int result = ((fact_n) / ((fact_r) * (fact_n_r)));
 
     return result;
 }

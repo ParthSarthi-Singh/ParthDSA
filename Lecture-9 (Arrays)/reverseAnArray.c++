@@ -17,7 +17,7 @@ void printArray(int arr[], int size){
 void reverseArray(int arr[], int n){
     
     int temp;
-    for (int i = 0 ,j = n-1 ; i < n/2 || j > n/2 ; i++, j--){
+    for (int i = 0 ,j = n-1 ; i<j ; i++, j--){
         
         temp = arr[i];
         arr[i] = arr[j];

@@ -20,13 +20,15 @@ int main(){
 
     int arr[n];
 
-    for (int i = 0; i < n; i++)
-    {
+    for (int i = 0; i < n; i++){
         cout<<"Enter Element Number "<<i+1<<" : ";
         cin>>arr[i];
     } 
 
     printArray(arr, n);
+
+    //Finding min and max
+    
     int min=arr[0],max=arr[0];
     for (size_t i = 0; i < n-1; i++){
 

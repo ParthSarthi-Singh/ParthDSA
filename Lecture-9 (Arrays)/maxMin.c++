@@ -22,7 +22,7 @@ int main(){
 
     for (int i = 0; i < n; i++)
     {
-        cout<<"Enter Element Number "<<i+1<<": ";
+        cout<<"Enter Element Number "<<i+1<<" : ";
         cin>>arr[i];
     } 
 

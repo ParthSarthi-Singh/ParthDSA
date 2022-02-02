@@ -19,5 +19,6 @@ int main(){
         
     }
     cout<<"Decimal Number is : "<<dec;
+    return 0;
 
 }

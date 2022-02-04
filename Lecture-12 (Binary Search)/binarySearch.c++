@@ -4,7 +4,7 @@ using namespace std;
 int binarySearch(int arr[], int n, int k)
 {
     int start = 0,end = n-1;
-    int mid = (start+end)/2;
+    int mid = start + (end-start)/2;
     
 
     while(start<=end){
@@ -13,11 +13,11 @@ int binarySearch(int arr[], int n, int k)
         }
         else if (k>arr[mid]){
             start = mid+1;
-            mid = (start+end)/2;
+            mid = start + (end-start)/2;;
         }
         else if(k<arr[mid]){
             end = mid-1;
-            mid = (start+end)/2;
+            mid = start + (end-start)/2;;
         }
         
     }
